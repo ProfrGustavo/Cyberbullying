@@ -12,6 +12,14 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.header-box {
+    background-color: #e0f7fa; /* cor gelo */
+    padding: 20px; /* espaçamento interno */
+    text-align: center; /* centraliza o texto */
+    border-radius: 8px; /* bordas arredondadas */
+    margin-bottom: 20px; /* espaçamento abaixo da caixa */
+}
 .container {
     display: flex;
     justify-content: space-between;
