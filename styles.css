@@ -27,17 +27,14 @@ header {
     width: 300px;          /* Largura máxima do box */
     height: 200px;         /* Altura máxima do box */
     overflow: hidden;      /* Esconde partes da imagem que ultrapassarem o box */
-    border: 2px solid #ccc; /* Opcional: Adiciona uma borda ao box */
-    border-radius: 10px;   /* Deixa os cantos arredondados, opcional */
-    background-color: #f8f8f8; /* Cor de fundo do box */
 }
 
 .image-box img {
     max-width: 100%; /* Ajusta a largura da imagem ao box */
     max-height: 100%; /* Ajusta a altura da imagem ao box */
     object-fit: cover; /* Faz com que a imagem preencha o box proporcionalmente */
-    border-radius: 5px; /* Bordas arredondadas, se desejar */
 }
+
 .container {
     display: flex;
     justify-content: space-between;
